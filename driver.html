@@ -1,0 +1,32 @@
+<h1>Welcome!</h1>
+<form action="cgi-bin/driver.py">
+  <legend><b>Enter your car info</b></legend>
+      <label for="plate-number">Plate Number: </label>
+    <input type="text" id="platenumber" name="platenumber" >
+  <br>
+	Name of owner<input type="text" id="name" name="name" >
+  <br>
+	X coordinate of hub<input type="text" id="x" name="x" >
+  <br>
+	Y coordinate of hub<input type="text" id="y" name="y" >
+  <br>
+	radius of hub<input type="text" id="r" name="r" >
+  <br>
+  The days on which the car is available: <br>
+  <input type="checkbox" name="days0"> Monday <br> Availability Starts: <input type="number" name="start0" value="" min="0" max="23"> Availability Ends: <input type="number" name="end0" value="" min="0" max="23">
+<br>
+  <input type="checkbox" name="days1"> Tuesday<br>Availability Starts: <input type="number" name="start1" value="" min="0" max="23"> Availability Ends: <input type="number" name="end1" value="" min="0" max="23">
+<br>
+  <input type="checkbox" name="days2"> Wednesday<br> Availability Starts: <input type="number" name="start2" value="" min="0" max="23"> Availability Ends: <input type="number" name="end2" value="" min="0" max="23">
+<br>
+  <input type="checkbox" name="days3"> Thursday<br> Availability Starts: <input type="number" name="start3" value="" min="0" max="23"> Availability Ends: <input type="number" name="end3" value="" min="0" max="23">
+<br>
+  <input type="checkbox" name="days4"> Friday<br> Availability Starts: <input type="number" name="start4" value="" min="0" max="23"> Availability Ends: <input type="number" name="end4" value="" min="0" max="23">
+<br>
+  <input type="checkbox" name="days5"> Saturday<br> Availability Starts: <input type="number" name="start5" value="" min="0" max="23"> Availability Ends: <input type="number" name="end5" value="" min="0" max="23">
+<br>
+  <input type="checkbox" name="days6"> Sunday<br> Availability Starts: <input type="number" name="start6" value="" min="0" max="23"> Availability Ends: <input type="number" name="end6" value="" min="0" max="23">
+<br>
+  <button type="submit">Add car</button>
+
+</form>
