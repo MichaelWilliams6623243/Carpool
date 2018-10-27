@@ -2,6 +2,7 @@
 
 import subprocess,os,cgi
 
+#header
 print("content-type: text/html")
 
 cmd=cgi.FieldStorage()
