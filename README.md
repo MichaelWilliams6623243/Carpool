@@ -1,2 +1,2 @@
 # Carpool
-Carpooling project
+Carpooling project as a part of college hackathon
