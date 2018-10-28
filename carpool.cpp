@@ -21,6 +21,7 @@ struct car
 };
 vector<car> carid(1,car());
 vector<vector<car> > v(1000000,carid);
+// useless comment
 
 void add_node(car ncar)
 {
