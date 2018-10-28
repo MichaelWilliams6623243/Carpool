@@ -1,6 +1,6 @@
 #!/usr/bin/python36
 import cgi
-
+#registration page backend
 print("content-type: text/html")
 
 cmd=cgi.FieldStorage()
