@@ -23,3 +23,4 @@ elif customer=="commuter":
 elif customer=="owner":
 	print("location: ../owner.html?name="+name+"&email="+email+"&psw="+psw)
 	print("\n")
+#useless comment
