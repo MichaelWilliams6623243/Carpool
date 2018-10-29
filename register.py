@@ -1,6 +1,7 @@
 #!/usr/bin/python36
 import cgi
 
+#header
 print("content-type: text/html")
 
 cmd=cgi.FieldStorage()
